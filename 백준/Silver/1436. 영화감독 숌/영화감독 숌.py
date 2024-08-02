@@ -1,14 +1,14 @@
 n = int(input())
-
-i = 666
-arr = []
+cnt = 0
+result = 666
 
 while True:
-    if '666' in str(i):
-        arr.append(i)
-    i += 1
-
-    if len(arr) == n:
+    if '666' in str(result):
+        cnt += 1
+    
+    if cnt == n:
         break
+    
+    result += 1
 
-print(max(arr))
+print(result)
