@@ -5,14 +5,14 @@ int main() {
 
 	int t;
 	char string[21];
-	int rotation;
+	int repeat;
 
 	scanf("%d", &t);
 
 	for (int i = 0; i < t; i++) {
-		scanf("%d %s", &rotation, string);
+		scanf("%d %s", &repeat, string);
 		for (int j = 0; j < strlen(string); j++) {
-			for (int k = 0; k < rotation; k++) {
+			for (int k = 0; k < repeat; k++) {
 				printf("%c", string[j]);
 			}
 		}
